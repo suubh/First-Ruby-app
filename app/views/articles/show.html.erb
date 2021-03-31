@@ -1,0 +1,23 @@
+<h1 align="center"><%= @article.title %></h1>
+<div class="well col-xs-8 col-xs-offset-2">
+<p><%= @article.body %></p>
+
+<ul>
+  <li><%= link_to "Edit", edit_article_path(@article),class: "btn btn-xs btn-primary" %></li>
+  <br>
+  <li><%= link_to "Destroy", article_path(@article),
+                  class: "btn btn-xs btn-danger",
+                  method: :delete,
+                  data: { confirm: "Are you sure?" } %></li>
+</ul>
+</div>
+
+<div class="well col-xs-8 col-xs-offset-2">
+<h3>Comments</h3>
+<%= render @article.comments %>
+</div>
+
+<div class="well col-xs-8 col-xs-offset-2">
+<h3>Add a comment:</h3>
+<%= render 'comments/form' %>
+</div>

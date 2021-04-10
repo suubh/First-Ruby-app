@@ -28,12 +28,24 @@ Things you may want to cover:
 
 ## Try on your own 
 
-- Fork this repo and clone it .
-- Install Ruby (if you didnt have ruby installed)
 - Make sure Ruby is installed on your system. Fire command prompt and run command:
-`ruby -v`
-Make sure Rails is installed
+      - `ruby -v` Make sure Rails is installed.
+      - `rails -v` If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails on Ubuntu.
+  
+- Fork this repo and clone it.
 
-`rails -v`
-If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails on Ubuntu
+- Install all dependencies .
+      - `bundle install` 
+      
+- Create db and migrate db.
+      - `rake db:create`
+      - `rake db:migrate`
+      
+- Now run your application .
+      - `bin/rails server` or `sudo bin/rails server` or `rails s`
+
+
+
+
+
 

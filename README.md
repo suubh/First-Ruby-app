@@ -30,7 +30,7 @@ Things you may want to cover:
 
 - Make sure Ruby is installed on your system. Fire command prompt and run command:<br>
       -> `ruby -v` Make sure Rails is installed.<br>
-      -> `rails -v` If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails on Ubuntu.
+      -> `rails -v` If you see Ruby and Rails version then you are good to start. 
   
 - Fork this repo and clone it.
 

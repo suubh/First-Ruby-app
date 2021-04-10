@@ -28,7 +28,7 @@ Things you may want to cover:
 
 ## Try on your own 
 
-- Make sure Ruby is installed on your system. Fire command prompt and run command:
+- Make sure Ruby is installed on your system. Fire command prompt and run command:<hr>
       - `ruby -v` Make sure Rails is installed.
       - `rails -v` If you see Ruby and Rails version then you are good to start, other wise Setup Ruby On Rails on Ubuntu.
   
